@@ -1,6 +1,8 @@
 import React from "react";
 import githublogo from "./assets/githublogo.png"
 import linkedinlogo from "./assets/linkedinlogo.png"
+import Contact from "./components/Contact";
+
 
 const Footer = () => {
     return (
@@ -9,21 +11,16 @@ const Footer = () => {
 
 
             <div className="flex space-x-25 sm:space-x-60 md:space-x-80 lg:space-x-100 2xl:space-x-150">
-
-                <div className="flex space-x-1">
-                    <a href="https://github.com/stmacoli">
-
-                        <img src={githublogo} alt="Icone Github" className="w-10 inline-flex" />
-                        <span>stmacoli</span>
-                    </a>
-                </div>
-
-                <div className="flex space-x-1">
-                    <a href="https://www.linkedin.com/in/steven-machado-oliveira/" >
-                        <img src={linkedinlogo} alt="Icone Github" className="w-10 inline-flex" />
-                        <span>Steven Oliveira</span>
-                    </a>
-                </div>
+                <Contact name="stmacoli"
+                    href="https://github.com/stmacoli"
+                    logo={githublogo}
+                    className="mb-4"
+                />
+                <Contact
+                    name="Steven Oliveira"
+                    href="https://www.linkedin.com/in/steven-machado-oliveira/"
+                    logo={linkedinlogo}
+                />
             </div>
 
 

@@ -87,10 +87,11 @@ const CurrencyConverter = () => {
                 Converter
             </button>
 
-            {loading && <div className="mt-4 text-gray-500">Carregando...</div>}
+            {loading && <div className="mt-4 text-gray-500"> <p>Carregando...</p></div>}
+                
 
             {result && (
-                <div className="mt-6 text-lg font-bold text-gray-800">{result}</div>
+                <div className="mt-6 text-lg font-bold text-gray-800"><p>{result}</p></div>
             )}
         </div>
     );
