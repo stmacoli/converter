@@ -7,6 +7,7 @@ Projeto com fins academico para estudar as seguintes tecnologias:
 - Tailwindcss,
 - ReactJS
 - Javascript
+- Consumo de API
 
 
   
