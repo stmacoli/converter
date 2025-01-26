@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Header from './Header'
 import CurrencyConverter from './CurrencyConverter'
 import Footer from './Footer'
@@ -16,11 +15,6 @@ function App() {
       <div>
         <Footer />
       </div>
-
-    
-
-
-    
     </div>
   )
 }
