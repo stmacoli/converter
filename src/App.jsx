@@ -6,16 +6,17 @@ function App() {
 
   return (
     <div>
-      <div>
+      <header>
         <Header />
-      </div>
-      <div>
+      </header>
+      <main>
         <CurrencyConverter />
-      </div>
-      <div>
+      </main>
+      <footer>
         <Footer />
-      </div>
+      </footer>
     </div>
+
   )
 }
 
